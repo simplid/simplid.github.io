@@ -1,0 +1,70 @@
+/*******************************
+            Global
+*******************************/
+
+html {
+  font-size: 14px;
+}
+
+
+/*******************************
+            Global
+*******************************/
+
+#home .menu .right.menu > .mobile.item {
+  display: none;
+}
+#home {
+  width: 1000px;
+  margin: auto;
+}
+#home .ui.segment:first-child {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+/*--------------
+    Header
+---------------*/
+#header .ui.fixed.menu {
+  width: 1000px;
+  left: auto;
+}
+#header .column {
+  position: relative;
+}
+#header .ui.fixed.menu + .ui.grid {
+  padding-top: 2.25rem;
+}
+
+/*--------------
+    Ribbons
+---------------*/
+.ribbon.ui.segment {
+  padding: 0em;
+}
+.ribbon.segment h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.ribbon .ui.rounded.image {
+  border-radius: 1em;
+}
+/*--------------
+    Footer
+---------------*/
+
+#footer.segment {
+  background-color: #000000;
+  padding: 3rem 0rem;
+}
+
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+@media only screen and (max-width : 768px) {
+}
