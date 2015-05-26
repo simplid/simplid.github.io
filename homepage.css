@@ -4,8 +4,12 @@
 
 html {
   font-size: 14px;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #e0e4e4;
+}
 
 /*******************************
             Global
