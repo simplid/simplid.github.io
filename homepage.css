@@ -11,6 +11,9 @@ body {
   background-color: #e0e4e4;
 }
 
+/*****************************
+          Index
+*****************************/
 #index {
   width: 1066px;
   margin: auto;
@@ -36,6 +39,36 @@ body {
 }
 #entries div a:hover {
     color: #000000;
+}
+
+#photos {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    height: 507px;
+}
+#photos a {
+    position: absolute;
+}
+#photo1 {
+    top: 0;
+    left: 0;
+}
+#photo2 {
+    top: 0;
+    left: 462px;
+}
+#photo3 {
+    top: 0;
+    left: 686px;
+}
+#photo4 {
+    top: 285px;
+    left: 244px;
+}
+#photo5 {
+    top: 285px;
+    left: 0;
 }
 /*******************************
             Global
